@@ -1,0 +1,35 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+ 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=\, initial-scale=1.0"> 
+    <title>Document</title> 
+    <script> 
+        function validate(){ 
+            var un=document.getElementById("t1").value; 
+            var pd=document.getElementById("t2").value; 
+            var mb=document.getElementById("t3").value; 
+            var x=document.getElementById("t4").value; 
+            var atposition=x.indexOf("@"); 
+            var dotposition=x.lastIndexOf("."); 
+            if(un.length<=5){ 
+                document.getElementById("p1").innerHTML="Invalid" 
+            } 
+            if
+        } 
+    </script> 
+</head> 
+<body> 
+    <form  name="f1"> 
+        Username<input type="text" id="t1" name="t1"><br> 
+        Password<input type="password" id="t2" name="t2"><br> 
+        Mobile No.<input type="text" id="t3" name="t3"><br> 
+        Email Id:<input type="email" id="t4" name="t4"><br> 
+        <br><br> 
+        <button onclick="validate()" type="submit">submit</button>
+        <input type="reset" value="clear"> 
+    </form> 
+    <p id="p1"></p> 
+</body> 
+</html>
