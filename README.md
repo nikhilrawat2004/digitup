@@ -38,7 +38,7 @@ DigItUp is a simple and efficient food ordering platform built using HTML, CSS, 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/DigItUp.git
+   git clone https://github.com/nik-rawat/digitup.git
    cd DigItUp
    ```
 
